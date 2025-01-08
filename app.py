@@ -72,7 +72,7 @@ model = genai.GenerativeModel( model_name="gemini-1.5-pro-exp-0827",
 st.set_page_config(page_title="Medical Image Analytics", page_icon=":robot:")
 
 # Set logo
-logo_path = "C:\\Users\\danda\\OneDrive\\Desktop\\AMAP\\logo.png"
+logo_path = "logo.png"
 logo_img = Image.open(logo_path)
 
 # Resize the logo to the desired size
