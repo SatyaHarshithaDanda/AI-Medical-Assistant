@@ -55,11 +55,16 @@ As a highly skilled medical practitioner specializing in image analysis, you are
 4. Your Insights are invaluable in guiding clinical decisions. Please proceed with the analysis, adhering to the structured approach outlined above.
 
 Please provide me with an output response containing these 4 headings:
-
 * Detailed Analysis
 * Findings Report
 * Recommendations and Next Steps
 * Treatment Suggestions
+
+**Summary:**
+- Possible Diseases: [List possible diseases or problems]
+- Urgency Level: [Low / Medium / High]
+- Next Steps: [Brief suggestion]
+
 Disclaimer:
 """
 
@@ -76,7 +81,7 @@ logo_path = "logo.png"
 logo_img = Image.open(logo_path)
 
 # Resize the logo to the desired size
-logo_img = logo_img.resize((715, 200))
+#logo_img = logo_img.resize((715, 200))
 
 # Display the logo
 st.image(logo_img, width=715)  # Set the width to 1815
